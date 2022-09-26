@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    display: flex;
+}
+.sideBackground{
+    background-image: url(img/ryan-yao-VURwPtZqyF4-unsplash.jpg);
+    border: 0;
+    width: 35vw;
+    height: 100vh;
+    background-size: 35vw 100vh;
+    display: flex;
+    justify-content: center;
+}
+.HoverText{
+    position: relative;
+    top: 20vh;
+    height: 13vh;
+    width: 35vw;
+    background-color: white;
+    opacity: 75%;
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 13vh;  
+    font-size: 50px;
+}
+.sign-up{
+    display: flex;
+    flex: 1;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+.form{
+    height: 30vh;
+}
+.data-form{
+    margin: 30px;
+
+}
